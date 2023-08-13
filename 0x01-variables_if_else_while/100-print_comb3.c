@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main -main function
  *
  * Return: always 0
  */
 int main(void)
 {
-	int i;
-	int j;
+	int i, j;
 
-	for (i = 0 ; i <= 10 ; i++)
+	for (i = 48; i <= 56; i++)
 	{
-		for (j = i + '1' ; j <= 10 ; j++)
+		for (j = 49; j <= 57; j++)
 		{
-			if (j != i)
+			if (j > i)
 			{
 				putchar(i);
 				putchar(j);
+				if (i != 56 || j != 57)
 				{
-					if (i == '8' && j == '9')
-						continue;
 					putchar(',');
 					putchar(' ');
 				}
