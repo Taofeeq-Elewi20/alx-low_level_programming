@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * time_table - prints time table 9times of a function
- * Return: void
+ * times_table - prints time table
+ * Return: 0
  */
 
 void times_table(void)
