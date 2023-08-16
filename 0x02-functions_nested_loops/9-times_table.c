@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * time_table - prints time table 9times of a function
- * @i, j: function parameter
  * Return: void
  */
 
