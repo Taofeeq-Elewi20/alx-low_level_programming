@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * time_table - prints time table 9times of a function
- * @i: function parameter
- * Return: 1 or 0
+ * @i, j: function parameter
+ * Return: void
  */
 
 void times_table(void)
